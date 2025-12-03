@@ -1,0 +1,18 @@
+.container{
+    display:flex;
+}
+
+#banner{
+    font-size: 100px;
+    text-align: center;
+    justify-content: middle;
+}
+
+div p{
+    flex:1;
+
+}
+
+#nav a{
+    flex:1;
+}
