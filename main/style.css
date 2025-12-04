@@ -10,9 +10,23 @@
 
 div p{
     flex:1;
+    border-radius: 20pt;
 
 }
 
 #nav a{
     flex:1;
+    background-color:red;
+    color: white;
+    font-size: 20pt;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+div img{
+    flex:1;
+    
 }
