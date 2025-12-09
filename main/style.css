@@ -12,11 +12,18 @@ body{
     font-size: 100px;
     text-align: center;
     justify-content: middle;
-    font-family: "Times New Roman";
+    font-family:"Times New Roman";
+    color:pink;
+
+    
 }
 
 .p2{
     font-size: 35px;
+}
+
+p:hover{
+    color:
 }
 
 
@@ -27,6 +34,7 @@ nav a{
     font-size: 20pt;
     text-decoration: none;
     padding: 10px;
+    text-align: center;
     
 }
 
@@ -41,7 +49,7 @@ nav a{
 
 #images p{
     border: 2px solid red;
-    background-color: white;
+    background-color: rgba(255, 255, 255,0.5);
     padding: 100px;
     border-radius: 10%;
     font-size: 50px;
