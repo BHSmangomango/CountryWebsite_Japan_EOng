@@ -2,31 +2,49 @@
     display:flex;
 }
 
-#banner{
+body{
+  background-image: url('Images/Japan_photo1.png'); /* Path to your image */
+  background-repeat: no-repeat;        /* Prevents tiling */
+  background-size: cover;              /* Covers the entire area */
+  background-position: center;         /* Centers the image */
+
+#title, p1{
     font-size: 100px;
     text-align: center;
     justify-content: middle;
+    font-family: "Times New Roman";
 }
 
-div p{
-    flex:1;
-    border-radius: 20pt;
-
+.p2{
+    font-size: 35px;
 }
 
-#nav a{
+
+nav a{
     flex:1;
     background-color:red;
     color: white;
     font-size: 20pt;
-    
-}
-
-a{
     text-decoration: none;
-}
-
-div img{
-    flex:1;
+    padding: 10px;
     
 }
+
+#navi a:hover{
+    color:pink;
+    background-color: rgb(122, 0, 0)
+}
+
+#images img{
+    text-align: center;
+}
+
+#images p{
+    border: 2px solid red;
+    background-color: white;
+    padding: 100px;
+    border-radius: 10%;
+    font-size: 50px;
+}
+
+
