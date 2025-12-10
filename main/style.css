@@ -2,30 +2,44 @@
     display:flex;
 }
 
-body{
+.Homepage{
   background-image: url('Images/Japan_photo1.png'); /* Path to your image */
   background-repeat: no-repeat;        /* Prevents tiling */
   background-size: cover;              /* Covers the entire area */
   background-position: center;         /* Centers the image */
+}
 
-#title, p1{
+.History{
+  background-image: url('Images/Japan_history3.jpg'); /* Path to your image */
+  background-repeat: no-repeat;        /* Prevents tiling */
+  background-size: cover;              /* Covers the entire area */
+  background-position: center;         /* Centers the image */
+  background-attachment: fixed;
+}
+
+#title, .p1{
     font-size: 100px;
     text-align: center;
     justify-content: middle;
     font-family:"Times New Roman";
     color:pink;
-
-    
 }
+
+.p1_history{
+    font-size: 100px;
+    text-align: center;
+    justify-content: middle;
+    font-family:"Times New Roman";
+    color:Black;
+    border: 2px solid red;
+    background-color: rgba(255, 255, 255,0.5);
+    border-radius: 10%;
+}
+
 
 .p2{
     font-size: 35px;
 }
-
-p:hover{
-    color:
-}
-
 
 nav a{
     flex:1;
@@ -40,7 +54,7 @@ nav a{
 
 #navi a:hover{
     color:pink;
-    background-color: rgb(122, 0, 0)
+    background-color: rgb(200, 0, 0)
 }
 
 #images img{
@@ -54,5 +68,6 @@ nav a{
     border-radius: 10%;
     font-size: 50px;
 }
+
 
 
