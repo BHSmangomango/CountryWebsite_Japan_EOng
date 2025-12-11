@@ -69,5 +69,20 @@ nav a{
     font-size: 50px;
 }
 
+.history_images1{
+    justify-context: center;
+
+}
 
 
+.container div{
+    flex:1;
+    border: 5px solid red;
+}
+
+#history_p1{
+    border: 5px solid red;
+    background-color: rgba(255, 255, 255,0.5);
+    font-family: "Times New Roman";
+    font-size: 50px;
+}
