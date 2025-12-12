@@ -17,6 +17,14 @@
   background-attachment: fixed;
 }
 
+.Culture{
+  background-image:  url('Images/Japan_photo4.jpg'); /* Path to your image */
+  background-repeat: no-repeat;        /* Prevents tiling */
+  background-size: cover;              /* Covers the entire area */
+  background-position: center;         /* Centers the image */
+  background-attachment: fixed;
+}
+
 #title, .p1{
     font-size: 100px;
     text-align: center;
@@ -86,3 +94,31 @@ nav a{
     font-family: "Times New Roman";
     font-size: 50px;
 }
+
+#history_p2{
+    flex:1;
+    border: 5px solid red;
+    background-color: rgba(255, 255, 255,0.5);
+    font-family: "Times New Roman";
+    font-size: 50px;
+    margin-right: 5%;
+}
+
+.p1_Culture{
+    font-size: 100px;
+    text-align: center;
+    justify-content: middle;
+    font-family:"Times New Roman";
+    color:Black;
+    border: 2px solid red;
+    background-color: rgba(255, 255, 255,0.5);
+    border-radius: 10%;
+}
+
+.culture_images1{
+    flex-direction: column;
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+
